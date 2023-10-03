@@ -1,3 +1,5 @@
+package ExerciseN1;
+
 import java.lang.reflect.Array;
 
 public class ExerciseN1 {
