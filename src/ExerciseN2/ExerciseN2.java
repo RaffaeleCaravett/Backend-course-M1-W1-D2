@@ -9,6 +9,7 @@ public class ExerciseN2 {
         Scanner scanner= new Scanner(System.in).useLocale(Locale.US);
         int number = getNextNumber(scanner);
         System.out.println(numberCheck(number,scanner));
+        scanner.close();
     }
 
    private static String numberCheck(int number,Scanner scanner){
